@@ -1,19 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Silvia Jesus Santos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silvia Jesus Santos | Portfolio</title>
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="tag">Portfolio</p>
+      <h1>Silvia Jesus Santos</h1>
+      <p class="subtitle">Future AI Developer creating real solutions with code.</p>
 
-  <h1>Silvia Jesus Santos</h1>
-  <p>Future AI Developer</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact</a>
+      </div>
+    </div>
+  </header>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Cuidar+ App</li>
-    <li>Portfolio Website</li>
-  </ul>
+  <main class="container">
+    <section class="card about">
+      <h2>About Me</h2>
+      <p>
+        I am building my journey as a developer by creating practical projects,
+        improving my skills, and focusing on real-world solutions. My goal is
+        to grow professionally in software development and artificial intelligence.
+      </p>
+    </section>
 
+    <section class="card skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>GitHub</span>
+      </div>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Cuidar+ App</h3>
+          <p>Medication reminder project focused on care, usability, and real support.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Veterinary Clinic Website</h3>
+          <p>A website concept created to present services and improve online presence.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p>A professional space to showcase my projects, skills, and growth as a developer.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card contact" id="contact">
+      <h2>Contact</h2>
+      <p>You can update this section later with your email, LinkedIn, or WhatsApp.</p>
+      <a href="#" class="btn primary">My Contact</a>
+    </section>
+  </main>
 </body>
 </html>
